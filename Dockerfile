@@ -8,4 +8,4 @@ RUN sed -i '651i\    info "debug vars: $REPMGR_CURRENT_PRIMARY_HOST:$REPMGR_CURR
   && apt-get update \
   && apt-get install -yq iputils-ping nano iproute2 traceroute
 
-USER 1001
+# USER 1001
